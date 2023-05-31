@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    body{
+background-image: linear-gradient(to bottom ,rgb(0, 115, 255) , rgb(255, 0, 238));
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.container{
+    padding: 1rem;
+width: 400px;
+height: 400px;
+background-color: #fff;
+display: flex;
+align-items: center;
+justify-content: start;
+flex-direction: column;
+border-radius: 10px;
+}
+.gradient-view{
+background-image: linear-gradient(to right , red , blue);
+width: 350px;
+height: 200px;
+border-radius: 10px;
+}
+.choose-buttons{
+    margin-top: 2%;
+    width: 350px;
+display: flex;
+justify-content: space-between;
+}
+.direction{
+display: flex;
+font-family: 'Times New Roman', Times, serif;
+flex-direction: column;
+}
+#Direction{
+    margin-top: 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    outline: none;
+border: 1px solid rgba(0, 0, 0, 0.399);
+}
+.select-colors{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.colors{
+    margin-top: 5px;
+}
+
+.gradient-text textarea{
+    margin-top: 10px;
+padding: 10px;
+width: 350px;
+font-size: 16px;
+height: 50px;
+padding: 5px;
+border-radius: 5px;
+border: 1px solid rgba(0, 0, 0, 0.364);
+}
+
+.btn-container{
+display: flex;
+justify-content: space-between;
+width: 350px;
+gap: 5px;
+margin-top: 10px;
+}
+.btn{
+    width: 200px;
+    height: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+#Random:hover{
+    background-color: rgb(53, 121, 249);
+}
+#Random{
+color: rgb(23, 22, 22);
+
+background-color: rgb(131, 159, 212);
+
+}
+#copy {
+    background-color: #cb4ceb;
+    color: rgb(23, 22, 22);
+}
+#copy:hover{
+    background-color: #c70ef6;
+}
